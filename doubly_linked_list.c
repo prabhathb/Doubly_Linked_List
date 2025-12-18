@@ -1,5 +1,13 @@
 #include "doubly_linked_list.h"
 
+/*
+	Name: doubly_linked_list.c
+	Copyright: 
+	Author: Prabhath Buddhika
+	Date: 18-12-25 17:00
+	Description: This source file defines the functions used with the doubly linked list data structure.
+*/
+
 //initialise the doubly linked list
 void init_doubly_linked_list(int data_item){
 	list_item* a = (list_item*)malloc(sizeof(list_item));	//allocate memory for the new node of the list. This will be the first node of the list.
@@ -164,4 +172,5 @@ void traverse_list_from_rear(){
 		x = x->previous;				//go to the previous node.
 		p--;							//decrement p.
 	}
+
 }
