@@ -1,3 +1,11 @@
+/*
+	Name: doubly_linked_list.h
+	Copyright: 
+	Author: Prabhath Buddhika
+	Date: 05-12-25 09:36
+	Description: This header file declares the variables and functions used with the doubly linked list data structure.
+*/
+
 #ifndef DOUBLY_LINKED_LIST
 #define DOUBLY_LINKED_LIST
 
@@ -46,3 +54,4 @@ void traverse_list_from_front();
 void traverse_list_from_rear();
 
 #endif
+
